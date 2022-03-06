@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#color-rgb{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
+    float: left;
+    margin-top: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 1.5px;
+    padding: 5px;
+    width: 1200px;
+    float: left;
+    background-color:#D3D3D3;
+    border-radius: 5px;
+    border: black solid 0.8px;
+}
+
+.main h1{
+    margin-bottom: 25px;
+}
+
+#header {
+    width: 1200px;
+    float: left;
+}
+
+#inputs {
+    float: left;
+}
+
+#filter {
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 233px;
+    border: gray 0.5px solid;
+    background-color: lightcyan;
+}
+
+#filter01 {
+    float: left;
+    margin-top: 5px;
+}
+
+#general {
+    margin-left: 30px;
+    float: left;
+    width: 930px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#summation-user {
+    margin-bottom: 5px;
+    width: 220px;
+    font-weight: bold;
+}
+
+.name {
+    float: left;
+    margin-top: 25px;
+}
+
+img {
+    float: left;
+    padding: 5px 0 5px 5px;
+    border-radius: 50px;
+}
